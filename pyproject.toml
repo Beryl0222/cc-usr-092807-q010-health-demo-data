@@ -1,0 +1,8 @@
+[project]
+name = "evidence-ops"
+version = "1.0.0"
+requires-python = ">=3.11"
+description = "健康证据协作平台"
+
+[project.scripts]
+evidence-ops = "evidence_ops.cli:main"
